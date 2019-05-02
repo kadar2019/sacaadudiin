@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0,">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <link rel="stylesheet" type="text/css" href="Index.css">
+  <title>calculator</title>
+</head>
+<body>
+	<header>
+		<div>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<label class="switch">
+			<input type="checkbox" id="toggles(this)">
+			<span class="slider round"></span>
+		</label>
+	</header>
+	<div class="container">
+		<form>
+			<input type="text"
+			name="text"  id="output">
+		</form>
+		<div class="btn">
+			<div class="btn-clr"
+			onclick="clr()">ac</div>
+			<div class="btn-clr"
+			onclick="back()">c</div>
+			<div class="btn-clr"
+			onclick="inp('%')">%</div>
+			<div class="btn-clr"
+			onclick="inp('/')">/</div>
+			
+			        <div class="btn-num"
+			onclick="inp('7')">7</div>
+			            <div class="btn-num"
+			onclick="inp('8')">8</div>
+
+			   <div class="btn-num"
+			onclick="inp('9')">9</div>
+			             
+			            <div class="btn-num"
+			onclick="inp('*')">*</div>
+			         
+
+
+			         <div class="btn-num"
+			onclick="inp('4')">4</div>
+
+			   <div class="btn-num"
+			onclick="inp('5')">5</div>
+			         
+
+			   <div class="btn-num"
+			onclick="inp('6')">6</div>
+			
+			 
+		   <div class="btn-num"
+			onclick="inp('-')">-</div>
+			
+
+
+                      <div class="btn-num" 
+			onclick="inp('1')">1</div>
+
+			   <div class="btn-num"
+			onclick="inp('2')">2</div>
+			        
+			           <div class="btn-num"
+			onclick="inp('3')">3</div>
+			         
+			            <div class="btn-num"
+			onclick="inp('+')">+</div>
+			         
+
+
+                         <div class="btn-num"
+			onclick="inp('0')">0</div>
+			         
+			            <div class="btn-num"
+			onclick="inp('.')">.</div>
+			   <span><!-----------Empty Block-------></span>
+			        
+			   <div class="btn-num"
+			onclick="inp('=')">=</div>
+			
+		</div>
+		<footer><span>design $ Developpeur Mohamoud KADAR 8+5 </span></footer>
+		 <script src="calculator.js"></script> 
+</body>
+</html>
